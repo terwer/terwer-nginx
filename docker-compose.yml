@@ -16,6 +16,8 @@ services:
     volumes:
       - ./terwer-nginx/nginx.conf:/etc/nginx/conf.d/default.conf
       - ./terwer-nginx/data/nginx/log:/var/log/nginx
+      - ./terwer-nginx/ssl/siyuan.pem:/etc/ssl/terwergreen.pem
+      - ./terwer-nginx/ssl/siyuan.key:/etc/ssl/terwergreen.key
     restart: "no"
   siyuan-nginx:
     image: siyuan/nginx:1.15.9
