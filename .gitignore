@@ -1,2 +1,12 @@
-.idea/
-ssl/
+.idea
+.DS_Store
+
+siyuan-nginx/ssl
+siyuan-nginx/data
+
+terwer-nginx/ssl
+terwer-nginx/data
+
+mk-nginx/data
+mk-nginx/log
+mk-nginx/html
