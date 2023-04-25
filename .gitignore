@@ -10,3 +10,5 @@ terwer-nginx/data
 mk-nginx/data
 mk-nginx/log
 mk-nginx/html
+
+vuepress-nginx/data
